@@ -1,14 +1,16 @@
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-// import { Route, Switch } from "react-router-dom";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+import { useState } from "react";
 
 
 function App() {
+  // const initialValues = {username: "",email: "", password: ""};
+  // const [formValues, setFormValues]= useState(initialValues);
   return (
     <>
     <Switch>

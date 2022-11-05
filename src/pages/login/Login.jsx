@@ -1,7 +1,9 @@
+// import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./login.scss"
   
 const Login = () => {
+
   return (
     <div className="login">
         <div className="card">
@@ -15,9 +17,11 @@ const Login = () => {
             </div>
             <div className="right">
                 <h1>Login</h1>
-                <form>
-                    <input type="text" placeholder="Username"/>
+                <form >
+                    <input type="text" placeholder="Username" />
+                    {/* <p>{ formErrors.username}</p> */}
                     <input type="password" placeholder="Password" />
+                    {/* <p>{ formErrors.password}</p> */}
                     <button>Login</button>
                 </form>
             </div>
