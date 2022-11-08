@@ -13,6 +13,7 @@ function App() {
   // const [formValues, setFormValues]= useState(initialValues);
   return (
     <>
+    <h1>Bhosda</h1>
     <Switch>
       <Route exact path='/' component = {Login}  />
       <Route exact path='/register' component={Register} />
