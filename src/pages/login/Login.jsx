@@ -9,7 +9,7 @@ const Login = () => {
         <div className="card">
             <div className="left">
                 <h1>Chatify</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod et accusantium amet tempore, saepe error sapiente laboriosam placeat recusandae similique ut modi deserunt consequuntur, quae obcaecati itaque asperiores voluptatem natus architecto id debitis cum!</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elit. Quod et accusantium amet tempore, saepe error sapiente laboriosam placeat recusandae similique ut modi deserunt consequuntur, quae obcaecati itaque asperiores voluptatem natus architecto id debitis cum!</p>
                 <span>Don't you have an account?</span>
                 <Link to ="/register">
                 <button>Register</button>
